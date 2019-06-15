@@ -1,0 +1,33 @@
+{
+  "name": "express-api-key",
+  "version": "0.0.0",
+  "description": "Express middleware to grant access to api endpoints using API key or secret",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulienLavocat/express-api-key.git"
+  },
+  "keywords": [
+    "rest",
+    "API",
+    "api",
+    "key",
+    "api",
+    "secret",
+    "key",
+    "secret",
+    "express"
+  ],
+  "author": "Julien Lavocat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulienLavocat/express-api-key/issues"
+  },
+  "homepage": "https://github.com/JulienLavocat/express-api-key#readme",
+  "dependencies": {
+    "ioredis": "^4.10.0"
+  }
+}
