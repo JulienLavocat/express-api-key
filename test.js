@@ -20,6 +20,9 @@ const invalidMock = {
     next: logTestResults
 }
 
+testValid();
+testInvalid();
+
 function testValid(cb) {
     keys.apiKey(validMock.req, null, validMock.next);
     keys.apiSecret(validMock.req, null, validMock.next);
